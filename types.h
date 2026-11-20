@@ -17,6 +17,8 @@ typedef enum
 
 typedef struct
 {
+    FILE *fptr_mp3;
+    
     char title[100];
     char artist[100];
     char album[100];

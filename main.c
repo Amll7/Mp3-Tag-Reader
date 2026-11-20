@@ -1,7 +1,6 @@
 #include<stdio.h>
 #include "operation.h"
 #include "types.h"
-#include "operation.h"
 
 
 int main(int argc,char **argv)
@@ -14,6 +13,10 @@ int main(int argc,char **argv)
   if(read_and_validate_view_args(argv,&mp3info)==failure)
   {
         return 0;
+  }
+  else
+  {
+   view_metadata()
   }
  }
 }
